@@ -1,0 +1,31 @@
+<nav
+  class="navbar navbar-expand-lg navbar-light bg-light sticky-top nav__custom"
+>
+  <!-- <a class="navbar-brand" href="#">Redit API Project</a> -->
+  <ng-content></ng-content>
+
+  <button
+    class="navbar-toggler"
+    type="button"
+    data-toggle="collapse"
+    data-target="#navbarText"
+    aria-controls="navbarText"
+    aria-expanded="false"
+    aria-label="Toggle navigation"
+  >
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarText">
+    <span class="navbar-text">
+      <input
+        class="form-control mr-sm-2"
+        type="text"
+        placeholder="Search"
+        aria-label="Search"
+        #ip
+        (keydown) = "search_Str(ip)"
+      />
+    </span>
+  </div>
+
+</nav>

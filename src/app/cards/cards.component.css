@@ -1,0 +1,58 @@
+
+.custom__box{
+    border: 1px solid #000;
+    transition: 0.4s;
+    background-color: #fff;
+    width: 100%;
+}
+ .custom__box:hover{
+    cursor: pointer;
+    transform: translate(-6px,-6px);
+    box-shadow: 7px 7px #000,
+                7px 7px #000,
+                7px 7px #000;
+} 
+.card__lower{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;  
+}
+
+.card_selfText_Html{
+    font-size: 16px;
+    
+}
+
+.btn__custom{
+    border: 1px solid #000;
+    transition: 0.4s;
+    background-color: #fff;
+    color: #000;
+    border-radius: 0 ;
+}
+
+.btn__custom:hover{
+    cursor: pointer;
+    transform: translate(-6px,-6px);
+    box-shadow: 7px 7px #000,
+                7px 7px #000,
+              7px 7px #000;
+}
+.btn:focus{
+    outline: none ;
+}
+
+.card__score{
+    border: 1px solid #000;
+    padding: .4rem;
+    border-radius: 20%;
+}
+
+.custom__pagination{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: .5rem 0;
+    font-size: 14px;
+}
